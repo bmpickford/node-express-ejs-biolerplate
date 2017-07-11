@@ -25,7 +25,7 @@ if (config.has('host')) {
 }
 
 app.listen(port, function(){
-  console.log('Ipswich Library App listening at https://%s:%s with %s env', host, port, (!process.env.NODE_ENV ? 'dev':'prod'));
+  console.log('App listening at https://%s:%s with %s env', host, port, (!process.env.NODE_ENV ? 'dev':'prod'));
 });
 
 
