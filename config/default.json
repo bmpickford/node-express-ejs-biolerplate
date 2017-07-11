@@ -1,0 +1,10 @@
+{
+    "port": 8081,
+    "host": "localhost",
+    "db": {
+        "username": "root",
+        "password": "root",
+        "database": "gilt2"
+    },
+    "env": "dev"
+}
